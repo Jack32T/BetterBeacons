@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "easton.bigbeacons.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "C2SInject",
+    "FortuneInject",
+    "LootingInject",
+    "RandomLootingInject",
+    "BeaconAdvancementMixin",
+    "BeaconBlockMixin",
+    "LivingEntityMixin",
+    "PlayerManagerMixin",
+    "ServerPlayerEntityMixin"
+  ],
+  "client": [
+    "AbstractInventoryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
