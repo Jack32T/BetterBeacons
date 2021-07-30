@@ -6,3 +6,6 @@ NEW: This mod is now vanilla-compatible as of 1.2.0! If a server has the mod, pl
 ![image](https://user-images.githubusercontent.com/88194223/127653265-ffbdb1a1-131e-4ae9-a4f9-99d1a15f62de.png)
 PS, if you make a level 16 beacon, you might notice a special effect. :)
 # How to download 
+go to https://github.com/Jack32T/BetterBeacons/releases/tag/1
+then download the .jar file.
+dont forget to download fabric api too :)
