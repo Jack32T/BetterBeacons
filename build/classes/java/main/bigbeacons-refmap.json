@@ -1,0 +1,72 @@
+{
+  "mappings": {
+    "easton/bigbeacons/mixin/RandomLootingInject": {
+      "test(Lnet/minecraft/loot/context/LootContext;)Z": "Lnet/minecraft/class_225;method_950(Lnet/minecraft/class_47;)Z"
+    },
+    "easton/bigbeacons/mixin/LootingInject": {
+      "process(Lnet/minecraft/item/ItemStack;Lnet/minecraft/loot/context/LootContext;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_125;method_522(Lnet/minecraft/class_1799;Lnet/minecraft/class_47;)Lnet/minecraft/class_1799;"
+    },
+    "easton/bigbeacons/mixin/AbstractInventoryMixin": {
+      "drawStatusEffects": "Lnet/minecraft/class_485;method_2477(Lnet/minecraft/class_4587;)V"
+    },
+    "easton/bigbeacons/mixin/BeaconBlockMixin": {
+      "createBlockEntity": "Lnet/minecraft/class_2238;method_10123(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Lnet/minecraft/class_2586;",
+      "onUse": "Lnet/minecraft/class_2238;method_9534(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;",
+      "onPlaced": "Lnet/minecraft/class_2238;method_9567(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)V",
+      "getTicker": "Lnet/minecraft/class_2238;method_31645(Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2591;)Lnet/minecraft/class_5558;"
+    },
+    "easton/bigbeacons/mixin/BeaconAdvancementMixin": {
+      "level": "field_11803:I"
+    },
+    "easton/bigbeacons/mixin/PlayerManagerMixin": {
+      "onPlayerConnect": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V",
+      "respawnPlayer": "Lnet/minecraft/class_3324;method_14556(Lnet/minecraft/class_3222;Z)Lnet/minecraft/class_3222;"
+    },
+    "easton/bigbeacons/mixin/C2SInject": {
+      "onUpdateBeacon(Lnet/minecraft/network/packet/c2s/play/UpdateBeaconC2SPacket;)V": "Lnet/minecraft/class_3244;method_12057(Lnet/minecraft/class_2866;)V"
+    },
+    "easton/bigbeacons/mixin/FortuneInject": {
+      "process(Lnet/minecraft/item/ItemStack;Lnet/minecraft/loot/context/LootContext;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_94;method_522(Lnet/minecraft/class_1799;Lnet/minecraft/class_47;)Lnet/minecraft/class_1799;"
+    },
+    "easton/bigbeacons/mixin/LivingEntityMixin": {
+      "onStatusEffectUpgraded": "Lnet/minecraft/class_1309;method_6009(Lnet/minecraft/class_1293;ZLnet/minecraft/class_1297;)V",
+      "Lnet/minecraft/entity/effect/StatusEffect;onRemoved(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/entity/attribute/AttributeContainer;I)V": "Lnet/minecraft/class_1291;method_5562(Lnet/minecraft/class_1309;Lnet/minecraft/class_5131;I)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "easton/bigbeacons/mixin/RandomLootingInject": {
+        "test(Lnet/minecraft/loot/context/LootContext;)Z": "Lnet/minecraft/class_225;method_950(Lnet/minecraft/class_47;)Z"
+      },
+      "easton/bigbeacons/mixin/LootingInject": {
+        "process(Lnet/minecraft/item/ItemStack;Lnet/minecraft/loot/context/LootContext;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_125;method_522(Lnet/minecraft/class_1799;Lnet/minecraft/class_47;)Lnet/minecraft/class_1799;"
+      },
+      "easton/bigbeacons/mixin/AbstractInventoryMixin": {
+        "drawStatusEffects": "Lnet/minecraft/class_485;method_2477(Lnet/minecraft/class_4587;)V"
+      },
+      "easton/bigbeacons/mixin/BeaconBlockMixin": {
+        "createBlockEntity": "Lnet/minecraft/class_2238;method_10123(Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)Lnet/minecraft/class_2586;",
+        "onUse": "Lnet/minecraft/class_2238;method_9534(Lnet/minecraft/class_2680;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;",
+        "onPlaced": "Lnet/minecraft/class_2238;method_9567(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_1309;Lnet/minecraft/class_1799;)V",
+        "getTicker": "Lnet/minecraft/class_2238;method_31645(Lnet/minecraft/class_1937;Lnet/minecraft/class_2680;Lnet/minecraft/class_2591;)Lnet/minecraft/class_5558;"
+      },
+      "easton/bigbeacons/mixin/BeaconAdvancementMixin": {
+        "level": "field_11803:I"
+      },
+      "easton/bigbeacons/mixin/PlayerManagerMixin": {
+        "onPlayerConnect": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;)V",
+        "respawnPlayer": "Lnet/minecraft/class_3324;method_14556(Lnet/minecraft/class_3222;Z)Lnet/minecraft/class_3222;"
+      },
+      "easton/bigbeacons/mixin/C2SInject": {
+        "onUpdateBeacon(Lnet/minecraft/network/packet/c2s/play/UpdateBeaconC2SPacket;)V": "Lnet/minecraft/class_3244;method_12057(Lnet/minecraft/class_2866;)V"
+      },
+      "easton/bigbeacons/mixin/FortuneInject": {
+        "process(Lnet/minecraft/item/ItemStack;Lnet/minecraft/loot/context/LootContext;)Lnet/minecraft/item/ItemStack;": "Lnet/minecraft/class_94;method_522(Lnet/minecraft/class_1799;Lnet/minecraft/class_47;)Lnet/minecraft/class_1799;"
+      },
+      "easton/bigbeacons/mixin/LivingEntityMixin": {
+        "onStatusEffectUpgraded": "Lnet/minecraft/class_1309;method_6009(Lnet/minecraft/class_1293;ZLnet/minecraft/class_1297;)V",
+        "Lnet/minecraft/entity/effect/StatusEffect;onRemoved(Lnet/minecraft/entity/LivingEntity;Lnet/minecraft/entity/attribute/AttributeContainer;I)V": "Lnet/minecraft/class_1291;method_5562(Lnet/minecraft/class_1309;Lnet/minecraft/class_5131;I)V"
+      }
+    }
+  }
+}
