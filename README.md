@@ -9,3 +9,4 @@ PS, if you make a level 16 beacon, you might notice a special effect. :)
 go to https://github.com/Jack32T/BetterBeacons/releases/tag/1
 then download the .jar file.
 dont forget to download fabric api too :)
+ 
